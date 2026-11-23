@@ -1,0 +1,23 @@
+{
+  "name": "smart-retail-engine",
+  "version": "1.0.0",
+  "description": "Sistem pemrosesan transaksi, autentikasi pengguna, dan laporan inventaris untuk aplikasi retail.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node test/run-tests.js",
+    "lint": "eslint . --ext .js",
+    "format:check": "prettier --check ."
+  },
+  "keywords": [
+    "retail",
+    "order-processing",
+    "inventory",
+    "code-review"
+  ],
+  "author": "Brilianta Idea",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "prettier": "^3.2.5"
+  }
+}
