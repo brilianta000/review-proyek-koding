@@ -1,0 +1,91 @@
+=== 1. ESLINT CHECK (npx eslint -c eslint.review.mjs src/dom src/object src/function) === 
+
+C:\Users\T470\.gemini\antigravity\brain\edbda3e8-ef31-413c-add7-cf4b01fbdd37\scratch\js-utils\src\function\after\after.js
+  27:23  warning  Identifier name 'n' is too short (< 2)             id-length
+  38:10  warning  Expected to return a value at the end of function  consistent-return
+
+C:\Users\T470\.gemini\antigravity\brain\edbda3e8-ef31-413c-add7-cf4b01fbdd37\scratch\js-utils\src\function\before\before.js
+  29:24  warning  Identifier name 'n' is too short (< 2)  id-length
+  43:7   warning  Unary operator '--' used                no-plusplus
+
+C:\Users\T470\.gemini\antigravity\brain\edbda3e8-ef31-413c-add7-cf4b01fbdd37\scratch\js-utils\src\function\compose\compose.js
+  57:7  warning  Unary operator '--' used  no-plusplus
+
+C:\Users\T470\.gemini\antigravity\brain\edbda3e8-ef31-413c-add7-cf4b01fbdd37\scratch\js-utils\src\function\curry\curry.js
+  47:5  warning  Assignment to function parameter 'arity'  no-param-reassign
+
+C:\Users\T470\.gemini\antigravity\brain\edbda3e8-ef31-413c-add7-cf4b01fbdd37\scratch\js-utils\src\function\pipe\pipe.js
+  57:7  warning  Unary operator '++' used  no-plusplus
+
+C:\Users\T470\.gemini\antigravity\brain\edbda3e8-ef31-413c-add7-cf4b01fbdd37\scratch\js-utils\src\object\get\get.js
+  48:16  error  Expected '===' and instead saw '=='  eqeqeq
+
+✖ 8 problems (1 error, 7 warnings)
+
+  
+=== 2. PRETTIER CHECK (npx prettier --check src/dom src/object src/function) === 
+Checking formatting...
+[[33mwarn[39m] src/dom/convertImageToBase64/convertImageToBase64.js
+[[33mwarn[39m] src/dom/convertImageToBase64/README.md
+[[33mwarn[39m] src/dom/convertImageToBase64/test.browser.js
+[[33mwarn[39m] src/dom/setupHiDPICanvas/README.md
+[[33mwarn[39m] src/dom/setupHiDPICanvas/setupHiDPICanvas.js
+[[33mwarn[39m] src/dom/setupHiDPICanvas/test.browser.js
+[[33mwarn[39m] src/dom/subscribeMediaQuery/README.md
+[[33mwarn[39m] src/dom/subscribeMediaQuery/subscribeMediaQuery.js
+[[33mwarn[39m] src/dom/subscribeMediaQuery/test.browser.js
+[[33mwarn[39m] src/object/get/get.js
+[[33mwarn[39m] src/object/get/README.md
+[[33mwarn[39m] src/object/get/test.js
+[[33mwarn[39m] src/object/omit/omit.js
+[[33mwarn[39m] src/object/omit/README.md
+[[33mwarn[39m] src/object/omit/test.js
+[[33mwarn[39m] src/object/pick/pick.js
+[[33mwarn[39m] src/object/pick/README.md
+[[33mwarn[39m] src/object/pick/test.js
+[[33mwarn[39m] src/object/pickBy/pickBy.js
+[[33mwarn[39m] src/object/pickBy/README.md
+[[33mwarn[39m] src/object/pickBy/test.js
+[[33mwarn[39m] src/function/after/after.js
+[[33mwarn[39m] src/function/after/README.md
+[[33mwarn[39m] src/function/after/test.js
+[[33mwarn[39m] src/function/ary/ary.js
+[[33mwarn[39m] src/function/ary/README.md
+[[33mwarn[39m] src/function/ary/test.js
+[[33mwarn[39m] src/function/before/before.js
+[[33mwarn[39m] src/function/before/README.md
+[[33mwarn[39m] src/function/before/test.js
+[[33mwarn[39m] src/function/compose/compose.js
+[[33mwarn[39m] src/function/compose/README.md
+[[33mwarn[39m] src/function/compose/test.js
+[[33mwarn[39m] src/function/curry/curry.js
+[[33mwarn[39m] src/function/curry/README.md
+[[33mwarn[39m] src/function/curry/test.js
+[[33mwarn[39m] src/function/debounce/debounce.js
+[[33mwarn[39m] src/function/debounce/README.md
+[[33mwarn[39m] src/function/debounce/test.js
+[[33mwarn[39m] src/function/flip/flip.js
+[[33mwarn[39m] src/function/flip/README.md
+[[33mwarn[39m] src/function/flip/test.js
+[[33mwarn[39m] src/function/negate/negate.js
+[[33mwarn[39m] src/function/negate/README.md
+[[33mwarn[39m] src/function/negate/test.js
+[[33mwarn[39m] src/function/once/once.js
+[[33mwarn[39m] src/function/once/README.md
+[[33mwarn[39m] src/function/once/test.js
+[[33mwarn[39m] src/function/partial/partial.js
+[[33mwarn[39m] src/function/partial/README.md
+[[33mwarn[39m] src/function/partial/test.js
+[[33mwarn[39m] src/function/partialRight/partialRight.js
+[[33mwarn[39m] src/function/partialRight/README.md
+[[33mwarn[39m] src/function/partialRight/test.js
+[[33mwarn[39m] src/function/pipe/pipe.js
+[[33mwarn[39m] src/function/pipe/README.md
+[[33mwarn[39m] src/function/pipe/test.js
+[[33mwarn[39m] src/function/throttle/README.md
+[[33mwarn[39m] src/function/throttle/test.js
+[[33mwarn[39m] src/function/throttle/throttle.js
+[[33mwarn[39m] Code style issues found in 60 files. Run Prettier with --write to fix.
+  
+=== 3. NPM AUDIT (npm audit) === 
+found 0 vulnerabilities

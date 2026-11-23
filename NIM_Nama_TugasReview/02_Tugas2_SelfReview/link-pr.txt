@@ -1,0 +1,8 @@
+INFORMASI REPOSITORY, BRANCH & PULL REQUEST REFACTORING (TUGAS 2)
+==================================================================
+- Repository URL      : https://github.com/brilianta000/review-proyek-koding
+- Branch Baseline     : main (Commit: 81f55c1)
+- Branch Refactoring  : refactor/standarisasi (Commit: 97a172e)
+- Link Branch GitHub  : https://github.com/brilianta000/review-proyek-koding/tree/refactor/standarisasi
+- Link Compare / Diff : https://github.com/brilianta000/review-proyek-koding/compare/main...refactor/standarisasi
+- Link Pull Request   : https://github.com/brilianta000/review-proyek-koding/pull/new/refactor/standarisasi
