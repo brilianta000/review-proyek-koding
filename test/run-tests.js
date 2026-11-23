@@ -72,8 +72,20 @@ runTest('authenticateUserAccount rejects locked account', () => {
 // 3. Inventory Manager Tests
 runTest('generateInventoryReport categorizes low and out of stock items', () => {
   const stockList = [
-    { sku: 'SKU-01', name: 'Mechanical Keyboard', qty: 15, cost: 450000, cat: 'Electronics' },
-    { sku: 'SKU-02', name: 'Gaming Mouse', qty: 4, cost: 250000, cat: 'Electronics' },
+    {
+      sku: 'SKU-01',
+      name: 'Mechanical Keyboard',
+      qty: 15,
+      cost: 450000,
+      cat: 'Electronics',
+    },
+    {
+      sku: 'SKU-02',
+      name: 'Gaming Mouse',
+      qty: 4,
+      cost: 250000,
+      cat: 'Electronics',
+    },
     { sku: 'SKU-03', name: 'USB-C Hub', qty: 0, cost: 150000, cat: 'Accessories' },
   ];
   const report = generateInventoryReport(stockList, 10);

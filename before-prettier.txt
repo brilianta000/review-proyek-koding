@@ -1,0 +1,7 @@
+Checking formatting...
+[[33mwarn[39m] eslint.config.mjs
+[[33mwarn[39m] src/authService.js
+[[33mwarn[39m] src/inventoryManager.js
+[[33mwarn[39m] src/orderProcessor.js
+[[33mwarn[39m] test/run-tests.js
+[[33mwarn[39m] Code style issues found in 5 files. Run Prettier with --write to fix.
